@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <Link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    </Link>
+    <Link href="./cart.css" rel="stylesheet"></Link>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">T-SHiRT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/product.html">T-shirt</a></li>
+                            <li><a class="dropdown-item" href="#">Shirt</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item" href="#">Trouser</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">CONTACT</a>
+                    </li>
+                   
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <section class="section1 d-flex justify-content-center">
+        <div class="sec1text">
+            <h1>NEW</h1>
+                <h1>COLLECTION</h1>
+                <h6>There's nothing like new</h6>
+                <br><br>
+                <button>SHOP NEW ARRIVALS</button>
+
+
+        </div>
+        <img src="../img/banner1.jpg" alt="">
+      </section> -->
+
+    <!-- <div class="d-flex justify-content-start">...</div>
+<div class="d-flex justify-content-end">...</div>
+<div class="d-flex justify-content-center">...</div>
+<div class="d-flex justify-content-between">...</div>
+<div class="d-flex justify-content-around">...</div> -->
+
+<h1 style="text-align: center;">Cart</h1>
+<br>
+<br>
+<div style="display: flex; align-items: center; margin-left: -5%;">
+    <h4 style="margin-left: 26%;">Product</h4>
+    <h4 style="margin-left: 32%;">Quantity</h4>
+    <h4 style="margin-left: 13%;">Total</h4>
+</div>
+    <div class="maincart">
+    
+
+        <div class="cart1">
+            <div class="product">
+                
+                <hr><br>
+
+                <div class="details ">
+                    <img src="./img/banner4.jpeg" style="width: 100%; height: auto; object-fit: contain;" alt="image">
+                    <div class="prodetails mx-4">
+                    <h7>Sleeveless</h5>
+                    <br>
+                    <h7>XXL</h5>
+                    <br>
+                    <h7><i class="fa-solid fa-indian-rupee-sign"></i>658</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quality" >
+            
+            <br>
+            <div class="quant"style="display: flex; align-items: center; justify-content: center; font-size: x-large; padding:2% 35%;border: 1px solid black;">
+                
+            <button style="cursor: pointer; border: none; background: none;">-</button>
+            <p style="margin: 0% 26%;">2</p>
+            <button style="cursor: pointer; border: none; background: none;">+</button>
+            </div>
+        </div>
+
+        <div class="total">
+            
+            <p style="margin-top: 2vw;"><i class="fa-solid fa-indian-rupee-sign"></i> 344</p>
+        </div>
+    </div>
+    <div class="container-fluid text-start mt-5 bg-dark-subtle" style="padding: 5%;">
+        <div class="row">
+            <div class="col">
+                <h4>UiX</h4>
+                <br><br>
+                <p>Fashion Fusion Wear <br>Your Masterpiece!</p>
+            </div>
+            <div class="col">
+                <h5>COMPANY</h5>
+                <div class="cola" style=" display: flex; flex-direction: column;">
+                    <a style="text-decoration: none;" href="">Career</a>
+                    <a style="text-decoration: none;" href="">Privacy Policy</a>
+                    <a style="text-decoration: none;" href="">Cookies</a>
+                    <a style="text-decoration: none;" href="">Terms</a>
+                    <a style="text-decoration: none;" href="">Imprint</a>
+                </div>
+
+            </div>
+            <div class="col">
+                <h5>CUSTOMER SERVICE</h5>
+                <div class="cola" style="display: flex; flex-direction: column;">
+                    <a style="text-decoration: none;" href="">Contact</a>
+                    <a style="text-decoration: none;" href="">Stores</a>
+                    <a style="text-decoration: none;" href="">FAQ</a>
+                    <a style="text-decoration: none;" href="">Shipping</a>
+                    <a style="text-decoration: none;" href="">Returns</a>
+                </div>
+            </div>
+            <div class="col">
+                <h5>BE THE FIRST TO KNOW</h5>
+
+                <h6>Sign up for registration</h6>
+                <input type="email" placeholder="Enter Your Valid Email">
+                <hr>
+                <button style="padding: 1% 15%;">Newsletter</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Copyright &copy 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+
+
+    <!-- <div class="row">
+
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <img src="../img/banner1.jpg" alt="">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementsByClassName("card-text").style.color = "red"
+    </script>
+</body>
+
+</html>
