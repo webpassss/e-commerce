@@ -1,0 +1,58 @@
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    margin: 7%;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.maininfo{
+    display: flex;
+}
+
+.mainform{
+    width: 40%;
+}
+
+.info{
+    width: 40%;
+}
+
+form input{
+    padding: 1% 9%;
+    margin: 2%;
+    font-weight: bold;
+}
+
+form button{
+    width: 14vw;
+    color: black;
+    background-color:bisque;
+    margin: 2% 2%;
+    padding: 2%;
+}
+
+.maininfo i{
+    margin-right: 8px;
+    margin-top: 6px;
+    
+}
+
+.info h4{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.info h3{
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.social i{
+    margin-right: 15px;
+    cursor: pointer;
+}

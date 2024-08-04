@@ -1,0 +1,101 @@
+.sec1{
+    display: flex;
+    margin: 5%;
+}
+
+
+.collect a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.color i{
+    border: none;
+    width: 15%;
+    
+    color: thistle;
+}
+
+.allcolors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allcolors div{
+    width: 15%;
+    background-color: aqua;
+    margin-right: 10px;
+    height: 4vh;
+    cursor: pointer;
+   
+}
+.collect ul{
+    list-style: none;
+
+}
+
+.container-fluid input{
+    background:none;
+    border: none;
+    font-weight: bold;
+}
+
+.collect ul li{
+    color: black;
+}
+/* .allcolors div{
+    width: 2%;
+    height: 1vh;
+    background-color: aqua;
+    padding: 2%;
+    display: flex;
+} */
+
+.size ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.size ul li{
+    padding:5px 9px;
+    background-color:antiquewhite;
+    margin-right: 14px;
+
+}
+
+.allsize a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .secright{
+    width: 70%;
+} */
+
+/* .secright p{
+    padding: 4%;
+} */
+
+.priceinput input{
+    width: 31%;
+    margin-top: -3px;
+    
+}
+
+.card-text{
+    padding: 5%;
+}
+
+.sec1 img{
+    margin-left: 5%;
+}
+
+.card-body{
+    width: 61%;
+}
+
+.secleft{
+    margin-right: 40px;
+}

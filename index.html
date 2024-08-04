@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <Link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">T-SHiRT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/product.html">T-shirt</a></li>
+                            <li><a class="dropdown-item" href="#">Shirt</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item" href="#">Trouser</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="d-flex justify-content-evenly sec1">
+        <div class="sec1text">
+            <h1 style="letter-spacing: 3px;">NEW</h1>
+            <h1 style="font-weight: 100; letter-spacing: 4px;">COLLECTION</h1>
+            <h6 style="font-family: initial; font-weight: bold;">There's nothing like new</h6>
+            <br><br>
+            <button style="cursor: pointer;">SHOP NEW ARRIVALS</button>
+
+
+        </div>
+        <img src="./img/pexels-spencer-selover-142259-428338.jpg" alt="">
+    </div>
+    <br>
+
+    <h1 style="text-align: center;">NEW COLLECTION</h1>
+    <br>
+    <div class="d-flex justify-content-center m-5 sec2 gap" style="border: none;">
+        <a href="/product.html" style="cursor: pointer; text-decoration: none;">
+             <div class="card border-0" style="width: 30rem;">
+            
+            <!-- <img src="./img/p1.jpeg" class="card-img-top mw-100" alt="..."> -->
+            <img src="/img/p1.jpeg" alt="Max-width 100%" style="height: 73vh;">
+            <div class="card-body">
+                <p class="card-text" style="background-color: aliceblue; margin-top: -9%; padding: 10px;">NECKLINE
+                    DESIGN $347.99</p>
+            </div>
+        </div>
+        </a>
+        <a href="/product.html" style="cursor: pointer; text-decoration: none;">
+        <div class="card border-0 mx-4" style="width: 30rem;">
+            <!-- <img src="./img/p4.jpg" class="card-img-top" alt="..."> -->
+            <img src="/img/banner8.jpg" alt="Max-width 100%" style="height: 73vh;">
+            <div class="card-body">
+                <p class="card-text" style="background-color: aliceblue; margin-top: -9%; padding: 10px;">ROUND-NECK
+                    DESIGN $47.09</p>
+            </div>
+        </div>
+        </a>
+    </div>
+    <br><br>
+
+    <h1 style="text-align: center;">FIND BY CATEGORY</h1>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " style="margin-left: 20%;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ALL COLLECTION</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-3">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" aria-current="page" href="#">SLEEVELESSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" aria-current="page" href="#">FULL-SLEEVES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" aria-current="page" href="#">HALF-SLEEVES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" aria-current="page" href="#">ROUND-NECK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" aria-current="page" href="#">V-NECK</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container text-center sec3">
+        <div class="row row-cols-3">
+            
+            <div class="col">
+                <div class="card border-0" style="width: 25rem;">
+                    <!-- <img src="./img/p1.jpeg" class="card-img-top mw-100" alt="..."> -->
+                     
+                    <img src="/img/p1.jpeg" alt="Max-width 100%" height="34%">
+                    <div class="card-body">
+                        <p class="card-text" style="background-color: aliceblue; margin-top: -10%; padding: 10px;">
+                            NECKLINE
+                            DESIGN $347.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card border-0 " style="width: 25rem;">
+                    <!-- <img src="./img/p1.jpeg" class="card-img-top mw-100" alt="..."> -->
+                    <img src="/img/banner2.jpg" alt="Max-width 100%" height="34%">
+                    <div class="card-body">
+                        <p class="card-text" style="background-color: aliceblue; margin-top: -10%; padding: 10px;">
+                            NECKLINE
+                            DESIGN $347.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0" style="width: 25rem;">
+                    <!-- <img src="./img/p1.jpeg" class="card-img-top mw-100" alt="..."> -->
+                    <img src="/img/banner4.jpeg" alt="Max-width 100%" height="34%">
+                    <div class="card-body">
+                        <p class="card-text" style="background-color: aliceblue; margin-top: -10%; padding: 10px;">
+                            NECKLINE
+                            DESIGN $347.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0" style="width: 25rem;">
+                    <!-- <img src="./img/p1.jpeg" class="card-img-top mw-100" alt="..."> -->
+                    <img src="/img/banner5.jpg" alt="Max-width 100%" height="34%">
+                    <div class="card-body">
+                        <p class="card-text" style="background-color: aliceblue; margin-top: -10%; padding: 10px;">
+                            NECKLINE
+                            DESIGN $347.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0" style="width: 25rem;">
+                    <!-- <img src="./img/p1.jpeg" class="card-img-top mw-100" alt="..."> -->
+                    <img src="/img/p14.jpg" alt="Max-width 100%" height="34%">
+                    <div class="card-body">
+                        <p class="card-text" style="background-color: aliceblue; margin-top: -10%; padding: 10px;">
+                            NECKLINE
+                            DESIGN $347.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0" style="width: 25rem;">
+                    <!-- <img src="./img/p1.jpeg" class="card-img-top mw-100" alt="..."> -->
+                    <img src="/img/p18.jpg" alt="Max-width 100%" height="34%">
+                    <div class="card-body">
+                        <p class="card-text" style="background-color: aliceblue; margin-top: -10%; padding: 10px;">
+                            NECKLINE
+                            DESIGN $347.99</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/banner1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/banner1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/banner1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/banner1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/banner1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+
+    <br><br>
+    <h1 style="text-align: center;">CLIENTS CERTIFICATION</h1>
+    <br><br>
+
+    <div class="d-flex justify-content-between sec2 mx-5">
+        <div class="card border-0 mx-5" style="width: 40rem;">
+            <img src="/img/p1.jpeg" class="img-fluid" alt="Responsive image" style="height: 76vh;">
+            <!-- <img src="./img/banner8.jpg" class="card-img-top img-fluid" alt="..."> -->
+            <!-- <div class="card-body">
+                <p class="card-text" style="background-color: aliceblue; margin-top: -5%; padding: 10px;">NECKLINE
+                    DESIGN $347.99</p>
+            </div> -->
+        </div>
+        <div class="card bg-danger border-0 mx-5" style="width: 40rem;">
+            <!-- <img src="./img/banner1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text" style="background-color: aliceblue; margin-top: -5%; padding: 10px;">ROUND-NECK
+                    DESIGN $47.09</p>
+            </div> -->
+            <h2 style="text-align:left; margin: auto; padding: 5%; ">"Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Dignissimos facere quae ipsa laborum accusamus officia. Aliquid rem excepturi impedit molestias
+                quidem suscipit facere consequatur, sapiente blanditiis alias soluta accusamus. Nesciunt!"</h2>
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <h1 style="text-align: center;">OUR GALLERY</h1>
+    <br><br><br>
+
+    <!-- Gallery starts here -->
+    <div class="container text-center sec3" style="margin-right: 4.5%;">
+        <div class="row row-cols-3" style="--bs-gap: .25rem 0.25rem;">
+            <div class="col mx-0">
+                <div class="card" style="width: 23rem;">
+                    <img src="/img/banner3.jpeg" class="card-img-top" alt="..." style="height: 55vh;">
+                    <!-- <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col mx-0 ">
+                <div class="card" style="width: 23rem; margin-top: -8%;">
+                    <img src="/img/p4.jpg" class="card-img-top" alt="..." style="height: 60vh;">
+                    <!-- <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col mx-0 ">
+                <div class="card" style="width: 23rem;">
+                    <img src="/img/banner7.jpeg" class="card-img-top" alt="..." style="height: 55vh;">
+                    <!-- <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 23rem;">
+                    <img src="/img/banner8.jpg" class="card-img-top" alt="..." style="height: 55vh;">
+                    <!-- <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 23rem;">
+                    <img src="/img/p14.jpg" class="card-img-top" alt="..." style="height: 60vh; margin-top: 9%;">
+                    <!-- <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 23rem;">
+                    <img src="/img/p5.jpg" class="card-img-top" alt="..." style="height: 55vh;">
+                    <!-- <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid text-start mt-5 bg-dark-subtle" style="padding: 5%;">
+        <div class="row">
+            <div class="col">
+                <h4>UiX</h4>
+                <br><br>
+                <p>Fashion Fusion Wear <br>Your Masterpiece!</p>
+            </div>
+            <div class="col">
+                <h5>COMPANY</h5>
+                <div class="cola" style=" display: flex; flex-direction: column;">
+                <a style="text-decoration: none;" href="">Career</a>
+                <a style="text-decoration: none;" href="">Privacy Policy</a>
+                <a style="text-decoration: none;" href="">Cookies</a>
+                <a style="text-decoration: none;" href="">Terms</a>
+                <a style="text-decoration: none;" href="">Imprint</a>
+                </div>
+
+            </div>
+            <div class="col">
+                <h5>CUSTOMER SERVICE</h5>
+                <div class="cola" style="display: flex; flex-direction: column;">
+                <a style="text-decoration: none;" href="">Contact</a>
+                <a style="text-decoration: none;" href="">Stores</a>
+                <a style="text-decoration: none;" href="">FAQ</a>
+                <a style="text-decoration: none;" href="">Shipping</a>
+                <a style="text-decoration: none;" href="">Returns</a>
+                </div>
+            </div>
+            <div class="col">
+                <h5>BE THE FIRST TO KNOW</h5>
+
+                <h6>Sign up for registration</h6>
+                <input type="email" placeholder="Enter Your Valid Email">
+                <hr>
+                <button style="padding: 1% 15%;">Newsletter</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Copyright &copy 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+
+
+    <!-- <div class="row">
+
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <img src="./img/banner1.jpg" alt="">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+        <script>
+            document.getElementsByClassName("card-text").style.color = "red"
+        </script>
+</body>
+
+</html>

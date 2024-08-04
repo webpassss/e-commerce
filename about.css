@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    margin-left: 9%;
+    margin-right: 12%;
+    margin-top: 3%;
+}
+
+.secleft{
+    width: 35%;
+    margin-right: 15%;
+}
+
+.secright{
+    width: 25%;
+}
+
+.secright span{
+    font-weight: 300;
+}
+
+.secleft p{
+    font-weight: 300;
+}
